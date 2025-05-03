@@ -1,0 +1,152 @@
+:root {
+    --font-color: #000;
+    --orange-color: #ECA912;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+   height: 80px; 
+}
+.navbar-brand {
+    font-size: 36px;
+    font-weight: 700;
+}
+.nav-item .nav-link {
+    font-weight: 400;
+}
+.nav-color {
+    color: var(--font-color);
+}
+.nav-color.active {
+    color: var(--orange-color) !important;
+}
+.navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-menu ul {
+    gap: 2rem;
+}
+.nav-link:hover {
+    color: #ECA912 !important;
+}
+.btn-contact {
+    border-radius: 10px;
+    background-color: #ECA912;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+.btn-contact:hover{
+    background-color: #dc9a00;
+}
+.content-header {
+    margin-top: 150px;
+}
+.header-section {
+    background-color: #FCFFEC;
+    height: 650px;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, white, #FCFFEC, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title {
+    color: var(--font-color);
+}
+.header-subtitle {
+    font-weight: 300;
+    color: var(--font-color);
+}
+.header-icon {
+    height: 50px;
+    width: 50px;
+}
+.header-biography {
+    max-width: 600px;
+}
+.sosmed-icon {
+    height: 18px;
+    width: 18px;
+}
+.circle {
+    height: 450px;
+    width: 450px;
+    background-color: #FD7900;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+}
+.profile-image {
+    width: 400px;
+    height: auto;
+    margin-top: -80px;
+    border-radius: 10px;
+}
+.profile-card {
+    border: none;
+    background-color: #fff;
+    padding: 25px 25px;
+}
+.project-card {
+    border: none;
+    background-color: #fff;
+    padding: 25px 25px;
+    box-shadow: 1px 5px 15px #e9e8e8;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+}
+.profile-icons {
+    width: 40px;
+    height: 40px;
+}
+.service-section {
+    background-color: #f9f9f9;
+    padding-top: 25px;
+}
+.project-category {
+    font-size: 12px;
+}
+.project-image {
+    border-radius: 5px;
+    flex: 1;
+}
+.project-name {
+    font-weight: 600;
+    font-size: 20px;
+}
+.project-link {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #dc9a00;
+}
+
+@media only screen and (max-width: 560px) {
+    .navbar-menu {
+        background-color: #fcfcfc;
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar-menu ul {
+        gap: 1rem;
+    }
+    .header-section {
+        margin-top: -100px;
+    }
+    .profile-image {
+        width: 250px;
+        margin-top: 15px;
+    }
+    .service-section {
+        margin-top: 22cqh;
+    }
+}
