@@ -9,7 +9,8 @@ export function Projects() {
     {
       title: "Marketplace Platform - P-store.net",
       description: "Marketplace for digital products built with Laravel, Vue.js, NuxtJS, and mySQL.",
-      image: "/public/assets/images/projects/pstore.png",
+      // image: "/public/assets/images/projects/pstore.png",
+      image: `${import.meta.env.BASE_URL}assets/images/projects/pstore.png`,
       technologies: ["Laravel", "Vue.js", "NuxtJS", "mySQL"],
       github: "#",
       demo: "https://p-store.net/"
@@ -17,7 +18,7 @@ export function Projects() {
     {
       title: "Payment Gateway - Tripay Payment Gateway",
       description: "Payment gateway built with Laravel, Vue.js, NuxtJS, and mySQL.",
-      image: "/public/assets/images/projects/tripay-pg.png",
+      image: `${import.meta.env.BASE_URL}assets/images/projects/tripay-pg.png`,
       technologies: ["Laravel", "Vue.js", "NuxtJS", "mySQL"],
       github: "#",
       demo: "https://tripay.co.id/"

@@ -178,7 +178,7 @@ export function Hero() {
               <div className="relative z-10 group">
                 <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border-4 border-background/50 shadow-2xl">
                   <ImageWithFallback
-                    src="/public/assets/images/profile/photo-profile.jpg"
+                    src={`${import.meta.env.BASE_URL}assets/images/profile/photo-profile.jpg`}
                     alt="Bayu segara - Senior Software Engineer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
